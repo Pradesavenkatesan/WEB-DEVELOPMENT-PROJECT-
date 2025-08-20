@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #004aad;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* About Image */
+#about img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+/* Skills and Projects */
+.skills ul, .projects ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li, .projects li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Links */
+a {
+  color: #004aad;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #004aad;
+  color: #fff;
+  margin-top: 20px;
+}
